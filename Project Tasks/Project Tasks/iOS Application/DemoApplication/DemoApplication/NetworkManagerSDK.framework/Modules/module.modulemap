@@ -1,0 +1,11 @@
+framework module NetworkManagerSDK {
+  umbrella header "NetworkManagerSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module NetworkManagerSDK.Swift {
+  header "NetworkManagerSDK-Swift.h"
+  requires objc
+}
